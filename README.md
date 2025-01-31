@@ -198,7 +198,7 @@ Używamy taki jaki jest potrzebny poziom szczegółowości.
 
 # Zadania
 
-# 1 (3) Narysuj diagram kontekstowy poniższej sytuacji
+## 1 (3) Narysuj diagram kontekstowy poniższej sytuacji
 
 Firma specjalizuje się w sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz Costam). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
 
