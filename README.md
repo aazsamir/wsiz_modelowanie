@@ -15,9 +15,9 @@ Plan określający relacje między elementami systemu i wartość jaką dostarcz
 
 # Obszary modelowania biznesowego
 
--   analityka deskryptywna - na podstawie danych historycznych, statystyki, np. raport sprzedaży z ostatniego roku
--   analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie
--   analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok
+-   analityka deskryptywna - na podstawie danych historycznych, statystyki, np. raport sprzedaży z ostatniego roku. Co się stało? (przeszłość)
+-   analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie. Co zrobić? (teraz)
+-   analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok. Co się stanie? (przyszłość)
 
 # Proces
 
@@ -34,6 +34,7 @@ Składa się z nazwy, wejścia, wyjścia i ograniczeń. Prowadzi do wytworzenia 
 -   czas wykonania (CW) - cały czas realizacji
 -   czas oczekiwania (CO) - czas kiedy nic się nie dzieje bo czekamy na coś (np. podwykonawcę)
 -   czas transportu (CT) - czas od końca jednego procesu, do rozpoczęcia kolejnego
+-   czas magazynowania (CM) - czas w którym wykonawca zakończył zadanie, ale nie przekazał go dalej
 -   koszty (K) - cały koszt procesu
 
 # Jakościowe miary procesów
@@ -194,3 +195,88 @@ Używamy taki jaki jest potrzebny poziom szczegółowości.
 -   model poglądowy - ogólny, bez zagadnień technicznych. Dla menadżerów, zarządu
 -   model analityczny - ocena rozmiaru prac do wykonania, bez definicji. Dla analityków
 -   model wykonalny - precyzyjny, wszystko jest. Dla wdrażających procesy w firmie
+
+
+# Zadania
+
+# 1 (3) Narysuj diagram kontekstowy poniższej sytuacji
+
+Firma specjalizuje się w  sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz Costam). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
+
+W firmie zatrudnieni są:
+- konsultant ds. sprzedaży odpowiadający za sprzedaż produktów
+- specjalista ds. logistyki (odpowiadający za zaopatrzenie produktów)
+- księgowy (odpowiadający za rozliczenia finansowe)
+
+Firma oferuje produkty zarówno klientom detalicznym, jak i hurtowym, gdzie główną rolę odgrywa konsultant ds. sprzedaży.
+
+## 2 (3) Omów czym jest proces biznesowy oraz jakie ma charakterystyki
+
+Proces biznesowy to zbiór działań, które prowadzą do wytworzenia wartości dla klienta.
+
+Charakterystyki:
+- nazwa procesu
+- wejście
+- wyjście
+- ograniczenia procesu
+
+## 3 (4) Podaj co najmniej dwa obszary zastosowań modelowania biznesowego - omów je krótko.
+
+Modelowanie ma zapewnić lepsze zrozumienie między biznesem, a IT.
+- analityka deskryptywna - na podstawie danych historycznych, statystyki, np. raport sprzedaży z ostatniego roku. Co się stało? (przeszłość)
+- analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie. Co zrobić? (teraz)
+- analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok. Co się stanie? (przyszłość)
+
+## 4 (4) Narysuj mapę procesów
+
+## 5 (5) Mając dane poniżej narysuj diagram Erikkson'a-Penker'a
+
+Proces: Przycinanie trawnika
+
+Wejście procesu: Trawnik zarośnięty
+
+Cel: obcięcie trawy do 2.5cm
+
+Wyjście: Trawnik na poziomie 2.5cm
+
+Osoba odpowiedzialna: Pracownik firmy
+
+Narzędzia: kosiarka elektryczna, kabel
+
+## 6 (5) Wyjaśnij krótko w jakim celu przeprowadza się reinżynierię procesów biznesowych oraz co może być ograniczeniem tego procesu.
+
+Reinżynieria procesów biznesowych ma na celu fundamentalne i radykalne przeprojektowanie procesów.
+Stosujemy gdy występują problemy z jakością lub kosztami i w odpowiedzi na zmieniające się cechy klientów, i warunki ekonomiczne.
+
+Reinżynierię ogranicza:
+- ryzyko niepowodzenia
+- koszty i pracochłonność
+- opór na zmiany
+
+## 7 (3) Jednym z celów modelowania biznesowego jest optymalizacja procesów w firmie, aby przegiegały "szybciej i lepiej". Opisz w punktach w jaki sposób i jakie miary możemy przyjąć podchodząc do tego zadania (ulepszania procesów).
+
+1. Analiza stanu obecnego (AS-IS)
+2. Stworzenie alternatyw (SHOULD-BE)
+3. Wybranie docelowego procesu (TO-BE)
+4. Ciągłe doskonalenie
+
+Miary:
+- ilościowe
+    -   czas wykonania
+    -   czas oczekiwania
+    -   czas transportu
+    -   czas magazynowania
+    -   koszty
+- jakościowe
+    -   satysfakcja klienta
+    -   zmniejszenie kroków w procesie
+    -   zmniejszenie użycia zasobów (np. papieru)
+    -   zmniejszenie liczby osób w procesie
+    -   elastyczność procesu
+    -   jakość procesu
+
+## 8 (4) Opisz główną różnicę w strategiach przedsiębiorstw zorientowanych procesowo, a zorientowanych departamentowo.
+
+W strategii departamentowej kolejne procesy przechodzą przez różne departamenty, a pracownicy przekazują zadania przez przełożonych.
+
+W strategii procesowej pracownicy bezpośrednio przekazują sobie zadania.
