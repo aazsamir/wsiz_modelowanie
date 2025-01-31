@@ -196,17 +196,17 @@ Używamy taki jaki jest potrzebny poziom szczegółowości.
 -   model analityczny - ocena rozmiaru prac do wykonania, bez definicji. Dla analityków
 -   model wykonalny - precyzyjny, wszystko jest. Dla wdrażających procesy w firmie
 
-
 # Zadania
 
 # 1 (3) Narysuj diagram kontekstowy poniższej sytuacji
 
-Firma specjalizuje się w  sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz Costam). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
+Firma specjalizuje się w sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz Costam). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
 
 W firmie zatrudnieni są:
-- konsultant ds. sprzedaży odpowiadający za sprzedaż produktów
-- specjalista ds. logistyki (odpowiadający za zaopatrzenie produktów)
-- księgowy (odpowiadający za rozliczenia finansowe)
+
+-   konsultant ds. sprzedaży odpowiadający za sprzedaż produktów
+-   specjalista ds. logistyki (odpowiadający za zaopatrzenie produktów)
+-   księgowy (odpowiadający za rozliczenia finansowe)
 
 Firma oferuje produkty zarówno klientom detalicznym, jak i hurtowym, gdzie główną rolę odgrywa konsultant ds. sprzedaży.
 
@@ -215,17 +215,19 @@ Firma oferuje produkty zarówno klientom detalicznym, jak i hurtowym, gdzie gł�
 Proces biznesowy to zbiór działań, które prowadzą do wytworzenia wartości dla klienta.
 
 Charakterystyki:
-- nazwa procesu
-- wejście
-- wyjście
-- ograniczenia procesu
+
+-   nazwa procesu
+-   wejście
+-   wyjście
+-   ograniczenia procesu
 
 ## 3 (4) Podaj co najmniej dwa obszary zastosowań modelowania biznesowego - omów je krótko.
 
 Modelowanie ma zapewnić lepsze zrozumienie między biznesem, a IT.
-- analityka deskryptywna - na podstawie danych historycznych, statystyki, np. raport sprzedaży z ostatniego roku. Co się stało? (przeszłość)
-- analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie. Co zrobić? (teraz)
-- analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok. Co się stanie? (przyszłość)
+
+-   analityka deskryptywna - na podstawie danych historycznych, statystyki, np. raport sprzedaży z ostatniego roku. Co się stało? (przeszłość)
+-   analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie. Co zrobić? (teraz)
+-   analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok. Co się stanie? (przyszłość)
 
 ## 4 (4) Narysuj mapę procesów
 
@@ -249,9 +251,10 @@ Reinżynieria procesów biznesowych ma na celu fundamentalne i radykalne przepro
 Stosujemy gdy występują problemy z jakością lub kosztami i w odpowiedzi na zmieniające się cechy klientów, i warunki ekonomiczne.
 
 Reinżynierię ogranicza:
-- ryzyko niepowodzenia
-- koszty i pracochłonność
-- opór na zmiany
+
+-   ryzyko niepowodzenia
+-   koszty i pracochłonność
+-   opór na zmiany
 
 ## 7 (3) Jednym z celów modelowania biznesowego jest optymalizacja procesów w firmie, aby przegiegały "szybciej i lepiej". Opisz w punktach w jaki sposób i jakie miary możemy przyjąć podchodząc do tego zadania (ulepszania procesów).
 
@@ -261,13 +264,14 @@ Reinżynierię ogranicza:
 4. Ciągłe doskonalenie
 
 Miary:
-- ilościowe
+
+-   ilościowe
     -   czas wykonania
     -   czas oczekiwania
     -   czas transportu
     -   czas magazynowania
     -   koszty
-- jakościowe
+-   jakościowe
     -   satysfakcja klienta
     -   zmniejszenie kroków w procesie
     -   zmniejszenie użycia zasobów (np. papieru)
