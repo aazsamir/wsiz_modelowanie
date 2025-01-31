@@ -198,19 +198,7 @@ Używamy taki jaki jest potrzebny poziom szczegółowości.
 
 # Zadania
 
-## 1 (3) Narysuj diagram kontekstowy poniższej sytuacji
-
-Firma specjalizuje się w sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz Costam). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
-
-W firmie zatrudnieni są:
-
--   konsultant ds. sprzedaży odpowiadający za sprzedaż produktów
--   specjalista ds. logistyki (odpowiadający za zaopatrzenie produktów)
--   księgowy (odpowiadający za rozliczenia finansowe)
-
-Firma oferuje produkty zarówno klientom detalicznym, jak i hurtowym, gdzie główną rolę odgrywa konsultant ds. sprzedaży.
-
-## 2 (3) Omów czym jest proces biznesowy oraz jakie ma charakterystyki
+## 1.3 Omów czym jest proces biznesowy oraz jakie ma charakterystyki
 
 Proces biznesowy to zbiór działań, które prowadzą do wytworzenia wartości dla klienta.
 
@@ -221,7 +209,7 @@ Charakterystyki:
 -   wyjście
 -   ograniczenia procesu
 
-## 3 (4) Podaj co najmniej dwa obszary zastosowań modelowania biznesowego - omów je krótko.
+## 1.4 Podaj co najmniej dwa obszary zastosowań modelowania biznesowego - omów je krótko.
 
 Modelowanie ma zapewnić lepsze zrozumienie między biznesem, a IT.
 
@@ -229,23 +217,7 @@ Modelowanie ma zapewnić lepsze zrozumienie między biznesem, a IT.
 -   analityka preskryptywna - optymalizacja, symulacja, prognozowanie, np. obliczanie co lepiej sprzedawać w danym momencie. Co zrobić? (teraz)
 -   analityka predyktywna - prognozowanie w czasie, np. prognozowanie sprzedaży na przyszły rok. Co się stanie? (przyszłość)
 
-## 4 (4) Narysuj mapę procesów
-
-## 5 (5) Mając dane poniżej narysuj diagram Erikkson'a-Penker'a
-
-Proces: Przycinanie trawnika
-
-Wejście procesu: Trawnik zarośnięty
-
-Cel: obcięcie trawy do 2.5cm
-
-Wyjście: Trawnik na poziomie 2.5cm
-
-Osoba odpowiedzialna: Pracownik firmy
-
-Narzędzia: kosiarka elektryczna, kabel
-
-## 6 (5) Wyjaśnij krótko w jakim celu przeprowadza się reinżynierię procesów biznesowych oraz co może być ograniczeniem tego procesu.
+## 1.5 Wyjaśnij krótko w jakim celu przeprowadza się reinżynierię procesów biznesowych oraz co może być ograniczeniem tego procesu.
 
 Reinżynieria procesów biznesowych ma na celu fundamentalne i radykalne przeprojektowanie procesów.
 Stosujemy gdy występują problemy z jakością lub kosztami i w odpowiedzi na zmieniające się cechy klientów, i warunki ekonomiczne.
@@ -256,7 +228,7 @@ Reinżynierię ogranicza:
 -   koszty i pracochłonność
 -   opór na zmiany
 
-## 7 (3) Jednym z celów modelowania biznesowego jest optymalizacja procesów w firmie, aby przegiegały "szybciej i lepiej". Opisz w punktach w jaki sposób i jakie miary możemy przyjąć podchodząc do tego zadania (ulepszania procesów).
+## 2.3 Jednym z celów modelowania biznesowego jest optymalizacja procesów w firmie, aby przegiegały "szybciej i lepiej". Opisz w punktach w jaki sposób i jakie miary możemy przyjąć podchodząc do tego zadania (ulepszania procesów).
 
 1. Analiza stanu obecnego (AS-IS)
 2. Stworzenie alternatyw (SHOULD-BE)
@@ -279,8 +251,53 @@ Miary:
     -   elastyczność procesu
     -   jakość procesu
 
-## 8 (4) Opisz główną różnicę w strategiach przedsiębiorstw zorientowanych procesowo, a zorientowanych departamentowo.
+## 2.4 Opisz główną różnicę w strategiach przedsiębiorstw zorientowanych procesowo, a zorientowanych departamentowo.
 
 W strategii departamentowej kolejne procesy przechodzą przez różne departamenty, a pracownicy przekazują zadania przez przełożonych.
 
 W strategii procesowej pracownicy bezpośrednio przekazują sobie zadania.
+
+## 2.5 Opisz krótko dwie korzyści z modelowania procesów biznesowych.
+
+-   sprawniejsza komunikacja - lepsze i ustrukturyzowane przekazywanie informacji
+-   efektywniejsze szkolenia - model biznesowy przekazuje wiedzę typu "how-to” i opisuje procesy
+-   sprawniejsza perswazja i sprzedaż
+-   sprawniejsza analiza
+-   zarządzanie zgodnością
+-   zarządzanie wymaganiami
+-   automatyzacja
+-   zarządzanie wiedzą
+
+## 3.3 Narysuj diagram kontekstowy poniższej sytuacji
+
+Firma specjalizuje się w sprzedaży elektroniki użytkowej. Współpracuje z dostawcami zewnętrznymi (InnoTech oraz SmartGadgets). Klienci mogą dokonywać zakupów zarówno w sklepie internetowym jak i stacjonarnym. Wszystkie transakcje można realizować za pomocą płatności terminala.
+
+W firmie zatrudnieni są:
+
+-   konsultant ds. sprzedaży odpowiadający za sprzedaż produktów
+-   specjalista ds. logistyki (odpowiadający za zaopatrzenie produktów)
+-   księgowy (odpowiadający za rozliczenia finansowe)
+
+Firma oferuje produkty zarówno klientom detalicznym, jak i hurtowym, gdzie główną rolę odgrywa konsultant ds. sprzedaży.
+
+![Diagram kontekstowy](./diagrams/zad1.png)
+
+## 3.4 Narysuj mapę procesów
+
+![Mapa procesów](./diagrams/zad4.png)
+
+## 3.5 Mając dane poniżej narysuj diagram Erikkson'a-Penker'a
+
+Proces: Przycinanie trawnika
+
+Wejście procesu: Trawnik zarośnięty
+
+Cel: obcięcie trawy do 2.5cm
+
+Wyjście: Trawnik na poziomie 2.5cm
+
+Osoba odpowiedzialna: Pracownik firmy
+
+Narzędzia: kosiarka elektryczna, kabel
+
+![Erikkson-Penker](./diagrams/zad5.png)
