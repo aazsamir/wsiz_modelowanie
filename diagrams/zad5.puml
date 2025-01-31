@@ -1,0 +1,31 @@
+@startuml
+
+' Mając dane poniżej narysuj diagram Erikkson'a-Penker'a
+' Proces: Przycinanie trawnika
+' Wejście procesu: Trawnik zarośnięty
+' Cel: obcięcie trawy do 2.5cm
+' Wyjście: Trawnik na poziomie 2.5cm
+' Osoba odpowiedzialna: Pracownik firmy
+' Narzędzia: kosiarka elektryczna, kabel
+
+rectangle "przycinanie trawnika" {
+    [trawnik zarośnięty] as input
+    [proces] as process
+    [trawnik na poziomie 2.5cm] as output
+    [pracownik firmy] as person
+    [kosiarka elektryczna] as tool1
+    [kabel] as tool2
+    [obcięcie trawy do 2.5cm] as goal
+}
+
+
+input -> process
+process -> output : "output"
+
+person -down-> process : "controls"
+process -up-> goal : "achieve"
+
+tool1 -up-> process : "supply"
+tool2 -up-> process : "supply"
+
+@enduml

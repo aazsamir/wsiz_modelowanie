@@ -1,0 +1,33 @@
+@startuml
+
+actor dostawca
+actor klient
+actor klient_detaliczny
+actor klient_hurtowy
+
+rectangle "sklep" {
+    actor konsultant
+    actor specjalista_logistyki
+    actor ksiegowy
+
+    (kupno produktu) as kupno
+    (dostawa produktu) as dostawa
+}
+
+klient_detaliczny ..> klient : "extends"
+klient_hurtowy ..> klient : "extends"
+
+klient --> kupno
+kupno .> konsultant
+kupno .> ksiegowy
+
+dostawa .> specjalista_logistyki
+dostawca --> dostawa
+
+dostawa ..> kupno : "extends"
+
+klient --> konsultant
+
+dostawca --> specjalista_logistyki
+
+@enduml

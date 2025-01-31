@@ -1,0 +1,17 @@
+@startuml
+
+actor dostawca
+actor klient
+actor klient_detaliczny
+actor klient_hurtowy
+
+rectangle "sklep" {
+
+}
+
+dostawca -> sklep
+klient --> sklep
+klient_detaliczny ..> klient : "extends"
+klient_hurtowy ..> klient : "extends"
+
+@enduml
